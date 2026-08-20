@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/registradores_info_conta-mcp",
+  "title": "Registradores (ARISP): Consulta de Informações da Conta",
+  "description": "Registradores (ARISP): Lookup de Informações da Conta, official-source lookup. Platform-hosted, pay ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/registradores_info_conta-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_registradores_info_conta"
+    }
+  ]
+}
